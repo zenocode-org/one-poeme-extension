@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "One Day, One Poem, One Tab",
+  "author": "Zenocode Team",
+  "description": "Each day a random poem to read before browsing the web...",
+  "version": "1.0",
+  "icons": {
+    "64": "icons/poetry-64.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "poetry.html"
+  }
+}
